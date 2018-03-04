@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   name_key = ""
   name_hash.each do |name, number|
-  if number < number
+  if number < 3
     name_key = name
   end
 end
